@@ -1,0 +1,32 @@
+// Estudos Git
+
+-> git init = 'Iniciaza o repositorio';
+
+-> ls -a = 'Listar o .git';
+
+-> ls -al .git = 'Listar arquivos dentro do diretorio .git';
+
+-> cat .git/config = 'Configações em relação ao repositorio';
+
+-> git commit -m "" = 'Criar uma historia dentro do repositorio';
+
+-> git log = 'Ver todos os Commit feito dentro do repositorio';
+
+-> git log --online = 'Log de forma curta';
+
+-> git log -n = 'Ver os ultimos 50 ou 5 commit 
+    50n ou 1n commit só colocar um número depois do n
+    para vê a quantidade que desejar';
+     
+-> git log --since=2020-10-01 = 'Ver os commits feitos no dia que desejar';
+
+-> git log --until=2020-10-01 = 'Ver os commits anteriores a dara expecificada';
+
+-> git log --author=(nome_do_autor) = 'Ver logs por nome do Autor';
+
+-> git log --grep='init' = 'Ver todos os logs comentario que desejar';
+
+-> git add . = 'Adiciona todos os arquivos ao repositorio'
+
+-> git status = 'Verifica o estado do diretorio';
+
