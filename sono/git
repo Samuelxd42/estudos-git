@@ -30,3 +30,20 @@
 
 -> git status = 'Verifica o estado do diretorio';
 
+-> git diff = 'faz a verificacao do que foi adicionado, apagado e subitituido';
+
+-> git diff --staged = 'vefica o que tá na Staged-Area vs Repository';
+
+#Work directory
+-> todos os nossos arquivos
+-> Work tree
+
+#Stage area
+-> preparacao dos arquivos para ser comitados
+-> Index
+-> Stage tree
+
+#Repository (local)
+- Banco de dados (arquivos)
+- Onde ficarao os pontos da historia
+- Ou historico
