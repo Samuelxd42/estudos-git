@@ -34,16 +34,22 @@
 
 -> git diff --staged = 'vefica o que tá na Staged-Area vs Repository';
 
+-> git restore = 'Restaurar arquivos';
+
+-> git checkout chave_do_commit == nome_arquivo = 'Recupera arquivo excluido';
+
+-> git clean -f = 'limpar os git que estao configurados';
+
 #Work directory
 -> todos os nossos arquivos
--> Work tree
+-> work tree
 
 #Stage area
 -> preparacao dos arquivos para ser comitados
--> Index
+-> index
 -> Stage tree
 
 #Repository (local)
-- Banco de dados (arquivos)
-- Onde ficarao os pontos da historia
-- Ou historico
+- banco de dados (arquivos)
+- onde ficarao os pontos da historia
+- ou historico
