@@ -42,6 +42,11 @@
 
 -> git clean -f = 'limpar os git que estao configurados';
 
+-> git show = 'ver todas as aleracoes que foram feitas';
+
+-> git push = 'enviar para repositorio';
+
+-> git pull = 'pegar alteraçoes do repositorio';
 
 #Work directory
 
